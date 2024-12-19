@@ -6,7 +6,7 @@ class Agent:
     def __init__(self, nom):
         self.nom = nom
         self.energie_physique = Energie("physique", 100)
-        self.energie_spirituelle = Energie("spirituelle", 100)
+        self.energie_creative = Energie("creative", 100)
         self.experience = 0
         self.commentaires = deque()
         self.actions_observees = []
@@ -82,10 +82,10 @@ class Agent:
 
     # Loi de superposition : manifestation de parole avec énergie spirituelle
     def loi_superposition(self):
-        if self.energie_spirituelle.niveau >= 5:
+        if self.energie_creative.niveau >= 5:
             parole = ''.join(random.choice('ACTG') for _ in range(6))
             self.commentaires.append(parole)
-            self.energie_spirituelle.diminuer(5)
+            self.energie_creatrive.diminuer(5)
             print(f"{self.nom} a manifesté une parole : {parole}")
 
     # Loi de mutation créative : actions imprévues basées sur l'expérience
