@@ -1,3 +1,3 @@
 # Monde Virtuel Library
 
-**Monde Virtuel Library** est une bibliothèque Python conçue pour simuler des agents virtuels, gérer des interactions complexes et offrir des fonctionnalités avancées comme des transactions sécurisées, des lois de gravité, résonance, etc.
+**Monde Virtuel Library** est une bibliothèque Python conçue pour simuler des agents virtuels, gérer des interactions complexes et offrir des fonctionnalités avancées.
