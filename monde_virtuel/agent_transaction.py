@@ -1,5 +1,5 @@
 # agent_transaction.py
-# sysstème adapté pour les aboonements flexible
+# sysstème adapté pour les abonnements flexible
 
 from .agent import Agent
 from .memoire import MemoirePartagee
